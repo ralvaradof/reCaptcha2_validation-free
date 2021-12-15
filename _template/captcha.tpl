@@ -127,19 +127,19 @@
                     </div>
                     <div class="footer">
                         <div class="lang-en" style="dispay: none;">
-                            Hosted by |COMPANY_HTML|.
+                             WP-AntiBot.
                         </div>
                         <div class="lang-nl" style="dispay: none;">
-                            Deze pagina wordt gehost door |COMPANY_HTML|.
+                             WP-AntiBot.
                         </div>
                         <div class="lang-ru" style="dispay: none;">
-                            Размещается на хостинге |COMPANY_HTML|.
+                             WP-AntiBot.
                         </div>
                         <div class="lang-tr" style="dispay: none;">
-                            Barındırıcı |COMPANY_HTML|.
+                             WP-AntiBot.
                         </div>
                         <div class="lang-es" style="dispay: none;">
-                            Hosteado por |COMPANY_HTML|.
+                            WP-AntiBot.
                         </div>
                     </div>
                 </div>
