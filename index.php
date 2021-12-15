@@ -59,14 +59,6 @@ $CLIENT_IP=(isset($_SERVER["REMOTE_ADDR"]) && $_SERVER["REMOTE_ADDR"]) ? $_SERVE
 $LANG=(isset($_SERVER["HTTP_ACCEPT_LANGUAGE"]) && $_SERVER["HTTP_ACCEPT_LANGUAGE"]) ? strtolower(substr($_SERVER["HTTP_ACCEPT_LANGUAGE"], 0, 2)): "en";
 
 $publickey = htmlspecialchars(strip_tags($publickey));
-$company_site = htmlspecialchars(strip_tags($company_site));
-$company_name = htmlspecialchars(strip_tags($company_name));
-
-if ($company_site && $company_name) {
-    $COMPANY_HTML = "<a href='".$company_site."' target='_blank'>".$company_name."</a>";
-} else {
-    $COMPANY_HTML = '';
-}
 
 $recaptcha_response=(isset($_POST["g-recaptcha-response"]) && $_POST["g-recaptcha-response"]) ? $_POST["g-recaptcha-response"] : false;
 $api_response = false;
